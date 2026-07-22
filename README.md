@@ -23,4 +23,7 @@ The AI feature takes messy text inputs and classifies urgency levels.
 1. Clone the repo: `git clone https://github.com`
 2. Install packages: `pip install -r requirements.txt`
 3. Set your local environment variable for `GEMINI_API_KEY`.
-4. Run locally: `streamlit run app.py`
+## 6. Screenshots
+![Dashboard Layout Screen](Screenshot%202026-07-23%20005032.png)
+![AI Response Complete Screen](Screenshot%202026-07-23%20005138.png)
+5. Run locally: `streamlit run app.py`
