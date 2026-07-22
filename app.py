@@ -32,7 +32,8 @@ if st.button("Parse with AI"):
     elif user_input:
         try:
             genai.configure(api_key=api_key)
-            model = genai.GenerativeModel('gemini-2.5-flash')
+           model = genai.GenerativeModel('gemini-3.5-flash')
+
             
             # YOUR CUSTOM SYSTEM PROMPT REQUIRED BY THE RUBRIC
             system_prompt = (
